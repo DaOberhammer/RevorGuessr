@@ -1,10 +1,10 @@
-# GeoGuessr Location
+# RevorGuessr
 
 [![Version](https://img.shields.io/badge/version-1.2.0-00f5ff)](manifest.json)
 
 Cyberpunk Chrome extension for [GeoGuessr](https://www.geoguessr.com): live location overlay, scatter-radius pin placement, and a neon map panel.
 
-**By [revor](https://buymeacoffee.com/revor)** · [GitHub](https://github.com/DaOberhammer/GeoGuessr-Location)
+**By [revor](https://buymeacoffee.com/revor)** · [GitHub](https://github.com/DaOberhammer/RevorGuessr)
 
 ## Features
 
@@ -26,8 +26,8 @@ Cyberpunk Chrome extension for [GeoGuessr](https://www.geoguessr.com): live loca
 ### Clone
 
 ```bash
-git clone https://github.com/DaOberhammer/GeoGuessr-Location.git
-cd GeoGuessr-Location
+git clone https://github.com/DaOberhammer/RevorGuessr.git
+cd RevorGuessr
 ```
 
 Then load the folder in Chrome as above.
@@ -46,7 +46,7 @@ Then load the folder in Chrome as above.
 
 ## Support
 
-GeoGuessr Location is 100% free. If it helps you out:
+RevorGuessr is 100% free. If it helps you out:
 
 **[☕ Buy revor a coffee](https://buymeacoffee.com/revor)**
 

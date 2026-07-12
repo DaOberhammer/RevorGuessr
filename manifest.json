@@ -1,0 +1,39 @@
+{
+  "manifest_version": 3,
+  "name": "GeoGuessr Location",
+  "version": "1.2.0",
+  "description": "Cyberpunk overlay: reveal location, scatter radius slider, and set pin on the GeoGuessr guess map.",
+  "permissions": ["storage"],
+  "host_permissions": ["https://www.geoguessr.com/*"],
+  "content_scripts": [
+    {
+      "matches": ["https://www.geoguessr.com/*"],
+      "js": ["leaflet/leaflet.js", "content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "injector.js",
+        "leaflet/leaflet.css",
+        "leaflet/images/*"
+      ],
+      "matches": ["https://www.geoguessr.com/*"]
+    }
+  ],
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "GeoGuessr Location",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  }
+}

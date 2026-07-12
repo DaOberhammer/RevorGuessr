@@ -44,6 +44,14 @@ Then load the folder in Chrome as above.
 | `0 km · EXACT` | Pin on the exact location |
 | `± N km` | Random point inside the circle |
 
+## More by revor
+
+| Project | Game | Link |
+|---------|------|------|
+| **RevorGuessr** | GeoGuessr | you are here |
+| **RevorWorldGuessr** | WorldGuessr | [github.com/DaOberhammer/RevorWorldGuessr](https://github.com/DaOberhammer/RevorWorldGuessr) |
+| **RevorSketch** | skribbl.io | [github.com/DaOberhammer/RevorSketch](https://github.com/DaOberhammer/RevorSketch) |
+
 ## Support
 
 RevorGuessr is 100% free. If it helps you out:

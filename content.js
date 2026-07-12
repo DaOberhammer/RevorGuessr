@@ -118,6 +118,7 @@
 
       .panel {
         position: relative;
+        isolation: isolate;
         display: flex;
         flex-direction: column;
         width: 100%;
